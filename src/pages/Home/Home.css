@@ -1,0 +1,39 @@
+.home {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.item-container {
+  display: flex;
+  color: white;
+  background-color: #242f3e;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+.item-container li {
+  list-style: none;
+  margin: 10px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+.home-row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.home-image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}

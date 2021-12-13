@@ -1,0 +1,16 @@
+.comment {
+    margin: 20px;
+}
+
+.comment img {
+    margin: 20px;
+}
+
+.comment p {
+    text-align: justify;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+}
